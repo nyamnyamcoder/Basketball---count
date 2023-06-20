@@ -1,0 +1,95 @@
+@font-face {
+    font-family: TimerFont;
+    src: url("Fonts/CursedTimerUlil-Aznm.ttf");
+}
+
+@font-face {
+    font-family: LINESeed;
+    src: url("Fonts/LINESeedJP_TTF_Bd.ttf")
+}
+body {
+    margin: 0;
+    font-family: TimerFont, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #1B244A;
+    text-align: center;
+}
+
+h3 {
+    color: whitesmoke;
+    font-size: 70px;
+    font-family: LINESeed, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 35px;
+    padding: 0 80px;
+}
+
+#homoe {
+    margin-right: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+#home-container {
+    background-color: #080001;
+    width: 100%;
+    height: 300px;
+    border-radius: 5%;
+}
+
+#home-points {
+    color: #F94F6D;
+    padding: 65px 0;
+    font-size: 170px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+#guest-container {
+    background-color: #080001;
+    width: 98%;
+    height: 300px;
+    border-radius: 5%;
+
+}
+
+#guest-points {
+    color: #F94F6D;
+    padding: 65px 0;
+    font-size: 170px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.point-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px
+}
+
+button {
+    background-color:#1B244A;
+    width: 80px;
+    height: 60px;
+    font-size: 40px;
+    border-radius: 5%;
+    border: solid #ffc8dd 3px;
+    color: #ffc8dd;
+    padding: 8px 15px 14px 15px;
+}
+
+#reset {
+    font-family: LINESeed, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    width: 300px;
+    margin-top: 30px;
+    background-color: #dadada;
+    color:  #080001;
+    border-radius: 100px;
+    border: #dadada solid 3px;
+    padding: 12px 15px 14px 15px;
+}
